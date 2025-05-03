@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroNexus Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-glass">
+    <form>
+      <h2>Registration Form</h2>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+
+      <label for="contact">Contact Number</label>
+      <input type="text" id="contact" name="contact" placeholder="Enter your number" required />
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+      <label for="company">Company Name</label>
+      <input type="text" id="company" name="company" placeholder="Your company name" />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@domain.com" required />
+
+      <label for="department">Department</label>
+      <select id="department" name="department">
+        <option value="" disabled selected>Select Department</option>
+        <option value="hr">HR</option>
+        <option value="marketing">Marketing</option>
+        <option value="Development">Finance</option>
+        <option value="sales">Tech</option>
+        <option value="others">Others</option>
+      </select>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="male" required /> Male</label>
+        <label><input type="radio" name="gender" value="female" required /> Female</label>
+        <label><input type="radio" name="gender" value="prefer-not-to-say" required /> Prefer not to say</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
