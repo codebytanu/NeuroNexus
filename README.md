@@ -1,6 +1,6 @@
 # NeuroNexus Registration Form
 
-<img src="forminterface.png" alt="Form Preview" width="500" height="300" />
+<img src="forminterface.png" alt="Form Preview" width="300" height="300" />
 
 A sleek glassmorphic web form built for NeuroNexus Innovations' internship task using pure HTML/CSS.
 
