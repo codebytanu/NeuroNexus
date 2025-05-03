@@ -1,2 +1,24 @@
-# NeuroNexus
-A modern glassmorphic registration form for NeuroNexus Innovations, built with pure HTML and CSS. Features responsive design, interactive elements, and elegant UI effects like backdrop blur and gradient animations.
+# NeuroNexus Registration Form
+
+![Form Preview](forminterface.png)
+
+A sleek glassmorphic web form built for NeuroNexus Innovations' internship task using pure HTML/CSS.
+
+## ✨ Features
+- **Glassmorphism UI**: Frosted glass effect with backdrop blur.
+- **Responsive Design**: Works on mobile and desktop.
+- **Interactive Elements**: Hover effects, animated gradients.
+- **No JavaScript**: Pure HTML/CSS.
+
+## 📂 Files
+| File            | Purpose                          |
+|-----------------|----------------------------------|
+| `index.html`    | Form structure                   |
+| `style.css`     | Glassmorphic styling             |
+| `forminterface.png` | Screenshot of the form        |
+
+## ✅ Task Requirements Met
+- All form fields (Name, Email, Department dropdown, etc.)
+- Submit button with hover effect (Bonus)
+- Distinct background + box-shadow (Bonus)
+
